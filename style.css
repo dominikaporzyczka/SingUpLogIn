@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bdc3c7;
+}
+
+.container {
+    width: 400px;
+    margin: 20px auto;
+    background-color: #34495e;
+    text-align: center;
+}
+
+.box {
+    
+}
+
+/*----- BUTTONS -----*/
+button {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px 60px;
+    background-color: #7f8c8d;
+    color: #fff;
+    border: none;
+}
+
+.signUp-btn {
+    margin-right: 10px;
+}
+
+/*----- SIGN UP BOX -----*/
+.signUp-box h2{
+    padding-top: 10px;
+    margin-bottom: 40px;
+    color: #fff;
+}
