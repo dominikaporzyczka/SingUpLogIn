@@ -103,3 +103,10 @@ form a {
     background-color: #1abc9c;
     font-weight: 700;
 }
+
+.hello {
+    display: block;
+    text-align: center;
+    font-size: 200px;
+    color: #fff;
+}
