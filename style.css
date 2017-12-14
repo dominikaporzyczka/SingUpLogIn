@@ -95,10 +95,11 @@ form a {
     width: 174px;
 }
 
-.input-small[placeholder="First Name"] {
+.first-small-input {
     margin-right: 8px;
 }
 
-
-
-
+.active-button {
+    background-color: #1abc9c;
+    font-weight: 700;
+}
