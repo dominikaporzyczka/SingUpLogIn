@@ -21,14 +21,12 @@ $(document).ready(function() {
         $(".signUp-btn").removeClass("active-button");
     })
 
-    $("input").blur(function(){
-        if($(this).val() == ''){
-            $(".button-big").click(function() {
-                $(".container").hide();
-                $(".hello").show();
-            })
-        }
-    });
+    $(".form").on("submit", function() {
+        $(".container").hide();
+        $(".hello").show();
+
+        return false;
+    })
     
 })
 
