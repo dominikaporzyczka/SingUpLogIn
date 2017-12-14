@@ -6,17 +6,17 @@
 
 body {
     background-color: #bdc3c7;
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 15px;
 }
 
 .container {
     width: 400px;
     margin: 20px auto;
+    padding: 0 20px;
     background-color: #34495e;
     text-align: center;
-}
-
-.box {
-    
 }
 
 /*----- BUTTONS -----*/
@@ -27,15 +27,59 @@ button {
     background-color: #7f8c8d;
     color: #fff;
     border: none;
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 15px;
 }
 
 .signUp-btn {
     margin-right: 10px;
+    text-align: left;
+}
+
+.logIn-btn {
+    text-align: right;
+}
+
+.button-big {
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #1abc9c;
+}
+
+/*----- STYLES FOR BOTH BOX----*/
+.logIn-box h2,
+.signUp-box h2 {
+    padding-top: 10px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.input-style {
+    display: inline-block;
+    background-color: transparent;
+    color: #bdc3c7;
+    border: 1px solid #bdc3c7;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    height: 30px;
+    width: 100%;
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/*----- LOG IN BOX -----*/
+form a {
+    display: block;
+    color: #1abc9c;
+    text-align: right;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 /*----- SIGN UP BOX -----*/
-.signUp-box h2{
-    padding-top: 10px;
-    margin-bottom: 40px;
-    color: #fff;
-}
+
+
+
